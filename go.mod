@@ -1,4 +1,4 @@
-module github.com/merissab44/GoUtil.git
+module github.com/merissab44/GoUtil
 
 go 1.17
 

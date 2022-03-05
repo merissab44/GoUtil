@@ -11,13 +11,13 @@ import (
 )
 
 // create shoe struct
-type shoe struct {
+type Shoe struct {
 	Name  string
 	Price string
 }
 
 // create json function
-func createJson(shoeList []shoe) {
+func createJson(shoeList []Shoe) {
 	jsonFile, _ := json.MarshalIndent(shoeList, "", " ")
 	_ = ioutil.WriteFile("shoes.json", jsonFile, 0644)
 }
@@ -27,12 +27,12 @@ func main() {
 	c := colly.NewCollector()
 	c.SetRequestTimeout(120 * time.Second)
 
-	shoes := make([]shoe, 0)
+	shoes := make([]Shoe, 0)
 
 	// On every a element which has href attribute call callback
 	c.OnHTML("div.css-xzkzsa", func(e *colly.HTMLElement) {
 		e.ForEach("div.css-1ibvugw-GridProductTileContainer", func(_ int, elm *colly.HTMLElement) {
-			newShoe := shoe{}
+			newShoe := Shoe{}
 			newShoe.Name = elm.ChildText("p.css-3lpefb")
 			newShoe.Price = elm.ChildText("p.css-9ryi0c")
 			shoes = append(shoes, newShoe)
