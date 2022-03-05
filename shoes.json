@@ -1,7 +1,7 @@
 [
  {
   "Name": "adidas Yeezy Boost 350 V2 Dazzling Blue",
-  "Price": "$289"
+  "Price": "$288"
  },
  {
   "Name": "Jordan 6 Retro UNC White",
@@ -20,24 +20,24 @@
   "Price": "$247"
  },
  {
+  "Name": "adidas Yeezy Slide Ochre",
+  "Price": "$104"
+ },
+ {
   "Name": "Jordan 1 Retro High OG Patent Bred",
-  "Price": "$251"
+  "Price": "$246"
  },
  {
   "Name": "Jordan 4 Retro Red Thunder",
   "Price": "$298"
  },
  {
-  "Name": "adidas Yeezy Slide Ochre",
-  "Price": "$104"
- },
- {
   "Name": "Jordan 5 Retro Racer Blue",
-  "Price": "$245"
+  "Price": "$244"
  },
  {
   "Name": "Jordan 1 Retro High OG Brotherhood",
-  "Price": "$194"
+  "Price": "$195"
  },
  {
   "Name": "Jordan 11 Retro Cool Grey (2021)",
@@ -49,11 +49,11 @@
  },
  {
   "Name": "New Balance 990v3 JJJJound Olive",
-  "Price": "$324"
+  "Price": "$320"
  },
  {
   "Name": "Nike Dunk Low Two-Toned Grey (GS)",
-  "Price": "$123"
+  "Price": "$122"
  },
  {
   "Name": "Jordan 1 Retro High OG Dark Marina Blue",
@@ -61,35 +61,31 @@
  },
  {
   "Name": "Puma MB.01 LaMelo Ball Rick and Morty",
-  "Price": "$237"
+  "Price": "$238"
+ },
+ {
+  "Name": "Nike Hot Step Air Terra Drake NOCTA White",
+  "Price": "$238"
  },
  {
   "Name": "Nike Air Force 1 Low Supreme White",
-  "Price": "$151"
+  "Price": "$152"
  },
  {
   "Name": "adidas Yeezy 500 Blush",
   "Price": "$232"
  },
  {
+  "Name": "adidas Yeezy Slide Pure (Restock Pair)",
+  "Price": "$135"
+ },
+ {
   "Name": "Jordan 1 Mid Linen",
   "Price": "$149"
  },
  {
-  "Name": "Nike Hot Step Air Terra Drake NOCTA White",
-  "Price": "$240"
- },
- {
-  "Name": "adidas Yeezy Slide Pure (Restock Pair)",
-  "Price": "$134"
- },
- {
   "Name": "adidas Yeezy Boost 350 V2 Beluga Reflective",
-  "Price": "$265"
- },
- {
-  "Name": "Jordan 1 Mid Diamond Shorts",
-  "Price": "$150"
+  "Price": "$264"
  },
  {
   "Name": "Nike Dunk Low Retro White Black (GS)",
@@ -100,24 +96,28 @@
   "Price": "$178"
  },
  {
+  "Name": "Nike SB Dunk High Supreme By Any Means Black",
+  "Price": "$390"
+ },
+ {
+  "Name": "Jordan 1 Mid Diamond Shorts",
+  "Price": "$150"
+ },
+ {
   "Name": "Jordan 3 Retro Cardinal (GS)",
   "Price": "$154"
+ },
+ {
+  "Name": "adidas Yeezy Foam RNNR Ochre",
+  "Price": "$182"
  },
  {
   "Name": "Nike Dunk Low EMB NBA 75th Anniversary Chicago (GS)",
   "Price": "$104"
  },
  {
-  "Name": "adidas Yeezy Foam RNNR Ochre",
-  "Price": "$188"
- },
- {
-  "Name": "Nike SB Dunk High Supreme By Any Means Black",
-  "Price": "$386"
- },
- {
   "Name": "Nike Kwondo 1 G-Dragon Peaceminusone Triple White",
-  "Price": "$175"
+  "Price": "$171"
  },
  {
   "Name": "Nike Air Force 1 Low '07 Black Black",
@@ -132,20 +132,16 @@
   "Price": "$143"
  },
  {
+  "Name": "Jordan 1 Mid Shadow Red",
+  "Price": "$143"
+ },
+ {
   "Name": "Jordan 1 Mid Light Smoke Grey Anthracite",
   "Price": "$182"
  },
  {
-  "Name": "Jordan 1 Mid Shadow Red",
-  "Price": "$145"
- },
- {
-  "Name": "Nike Dunk Low Union Passport Pack Pistachio",
-  "Price": "$349"
- },
- {
   "Name": "Nike Hot Step Air Terra Drake NOCTA Black",
-  "Price": "$220"
+  "Price": "$216"
  },
  {
   "Name": "Jordan 1 Mid Diamond Shorts (GS)",
@@ -153,10 +149,14 @@
  },
  {
   "Name": "Jordan 1 Retro High OG Brotherhood (GS)",
-  "Price": "$143"
+  "Price": "$144"
  },
  {
   "Name": "Nike Dunk Low Safari Mix (W)",
-  "Price": "$171"
+  "Price": "$170"
+ },
+ {
+  "Name": "Jordan 1 Low Diamond Shorts",
+  "Price": "$130"
  }
 ]

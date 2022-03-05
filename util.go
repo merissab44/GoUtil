@@ -7,6 +7,7 @@ import (
 	"strconv"
 	"time"
 
+	"github.com/PuerkitoBio/goquery"
 	"github.com/gocolly/colly"
 )
 
@@ -21,6 +22,18 @@ func createJson(shoeList []Shoe) {
 	jsonFile, _ := json.MarshalIndent(shoeList, "", " ")
 	_ = ioutil.WriteFile("shoes.json", jsonFile, 0644)
 }
+
+func ScrapeTitle(webURL string) string {
+	doc, err := goquery.NewDocument(webURL)
+	if err != nil {
+		fmt.Println(err)
+	}
+	title := doc.Find("title").Contents().Text()
+	return title
+}
+
+// create a function that takes in a budget and returns
+// the shoes within that budget
 
 // create collection
 func main() {
@@ -55,7 +68,6 @@ func main() {
 
 	createJson(shoes)
 
-	// ask user to input their budget
 	var budget float64
 	fmt.Println("Please enter your budget:")
 	fmt.Scanf("%f", &budget)
